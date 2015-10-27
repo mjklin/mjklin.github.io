@@ -1,0 +1,13 @@
+---
+layout: post
+title: New Post
+category: random
+author: Mark Klingman
+
+excerpt: Overview
+
+---
+
+Here is how my day went: 
+
+RAIN
