@@ -1,6 +1,10 @@
 name: MK
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+<<<<<<< HEAD
 paginate: 5
 destination: _site/blog
 paginate_path: "/archives/page/:num"
+=======
+baseurl: http://mjklin.github.io/blog/
+>>>>>>> origin/master
