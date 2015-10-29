@@ -1,3 +1,4 @@
 name: MK
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+baseurl: http://mjklin.github.io/blog/
