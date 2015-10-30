@@ -1,0 +1,10 @@
+name: MK
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+paginate: 3
+## destination: _site/blog
+## paginate_path: "/_posts/page:num/"
+encoding: utf-8
+baseurl: http://mjklin.github.io/
+gems: [jekyll-paginate]
+
