@@ -3,7 +3,7 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 paginate: 5
 destination: _site/blog
-paginate_path: "/archives/page/:num"
+paginate_path: "/_posts/page:num/"
 highlighter: rouge
 encoding: utf-8
 baseurl: http://mjklin.github.io/blog/
