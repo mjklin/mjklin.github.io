@@ -2,7 +2,7 @@ name: MK
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 paginate: 5
-destination: _site/blog
+## destination: _site/blog
 paginate_path: "/_posts/page:num/"
 highlighter: rouge
 encoding: utf-8
