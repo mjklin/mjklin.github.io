@@ -19,7 +19,7 @@ Learn more and contribute on [GitHub](https://github.com/poole).
 
 ### What's included
 
-<!--break-->
+<!--more-->
 
 Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it, includes the following:
 
