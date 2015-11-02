@@ -19,6 +19,8 @@ Learn more and contribute on [GitHub](https://github.com/poole).
 
 ### What's included
 
+<!--break-->
+
 Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it, includes the following:
 
 * Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404.html), [RSS feed]({{ site.baseurl }}/atom.xml), posts, and [example page]({{ site.baseurl }}/about))
