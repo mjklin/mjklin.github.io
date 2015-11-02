@@ -6,7 +6,7 @@ title: Home
 {% for post in paginator.posts %}
 <div class="panel panel-default">
   <div class="panel-body">
-    <h3 class="media-heading"><a class="text-dblue" href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h3 class="media-heading"><a class="text" href="{{ post.url }}">{{ post.title }}</a></h3>
     <time class="media-meta text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
     {{ post.excerpt }} 
     {% capture content_words %} 
@@ -25,7 +25,7 @@ title: Home
     {% assign taglist = post.tags | sort %}
     {% for tag in taglist | order: descending %}
     <small>
-      <a class="text-dblue" href="/tags/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
+      <a class="text" href="/tags/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
       {% if forloop.last != true %}, {% endif %}
     </small> 
     {% endfor %}
